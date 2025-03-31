@@ -6,7 +6,16 @@ const nextConfig = {
   images: {
     domains: ['*'],
     unoptimized: true
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/text-to-insta',
+        permanent: false,
+      },
+    ]
+  },
 };
 
 module.exports = nextConfig;
