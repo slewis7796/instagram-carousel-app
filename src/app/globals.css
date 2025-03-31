@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didot:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 13, 17, 23;
+  --background-end-rgb: 13, 17, 23;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.header-gradient {
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+}
+
+.donation-button {
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.donation-button:hover {
+  opacity: 0.9;
+}
+
+.carousel-slide {
+  aspect-ratio: 4/5;
+}
+
+/* Font classes */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-opensans {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.font-sourceserif {
+  font-family: 'Source Serif Pro', serif !important;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.font-lobster {
+  font-family: 'Lobster', cursive !important;
+}
+
+.font-permanent-marker {
+  font-family: 'Permanent Marker', cursive !important;
+}
+
+.font-fredoka-one {
+  font-family: 'Fredoka One', cursive !important;
+}
+
+.font-bebas-neue {
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif !important;
+}
+
+.font-abril-fatface {
+  font-family: 'Abril Fatface', cursive !important;
+}
+
+.font-righteous {
+  font-family: 'Righteous', cursive !important;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif !important;
+}
+
+.font-didot {
+  font-family: 'Didot', serif !important;
+}
